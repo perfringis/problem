@@ -2,28 +2,28 @@
 
 ## Pytanie
 
-Jak otrzymac jak najblizszy obraz do oryginalu za pomoca grafik wektorowych?
+Jak otrzymać jak najbliższy obraz do oryginału za pomocą grafik wektorowych?
 
 ## Opis problemu
 
-Mam zbior 105 grafik wektorowych. Grafiki wektorowe sa dostepne w folderze "vector graphics". Z sposrd 105 grafik wybieramy podzbior 40 elementowy. Dana grafika moze byc wybrana kilka razy do podziobru. Wszystkie operacje od tego momentu sa wykonywane na wybranym podzbiorze(40 elementowym).
+Mam zbiór 105 grafik wektorowych. Grafiki wektorowe są dostępne w folderze "vector graphics". Spośród 105 grafik wybieramy podzbiór 40 elementowy. Dana grafika może być wybrana kilka razy do podzbioru. Wszystkie operacje od tego momentu są wykonywane na wybranym podzbiorze(40 elementowym).
 
-### Jakie operacje mozna wykonac na jednej grafice wektorowej?
+### Jakie operacje można wykonać na jednej grafice wektorowej?
 
 - Przemieszczanie(z miejsca na miejsce),
-- Skalowanie(czyli powiekszanie i pomniejszanie),
-- Transformacja(czyli z kwadratu stworzyc prostokat, deformacja grafiki za pomoca osi x lub y),
-- Obracanie(czyli obrot o kilka stopni),
-- Odbicie lustrzane(czyli dokonanie odbicia za pomoca osi x lub osi y),
+- Skalowanie(czyli powiększanie i pomniejszanie),
+- Transformacja(czyli z kwadratu można stworzyć prostokąt, deformacja grafiki za pomocą osi x lub y),
+- Obracanie(czyli obrót o kilka stopni),
+- Odbicie lustrzane(czyli dokonanie odbicia za pomocą osi x lub osi y),
 
 ### Scena
 
-Grafiki sa umieszczane na scene o wielkosci 966px na 966px. Grafika jest widoczna tylko w obszarze sceny. Jezeli czesc grafiki nieznacznie "wychodzi" poza krawedz sceny, to tylko ta czesc, ktora znajduje sie w obszarze sceny jest widoczna.
+Grafiki są umieszczane na scenę o wielkości 966px na 966px. Grafika jest widoczna tylko w obszarze sceny. Jeżeli część grafiki nieznacznie "wychodzi" poza krawędź sceny, to tylko ta część, która znajduje się w obszarze sceny jest widoczna.
 
 ### System warstw
 
-Podzbior wyselekcjonowanych 40 grafik dzila w systemie warstw. Mozna myslec o tym jak o stosie elementow. Pierwszy element, ktory znajduje sie na samej gorze jest widziany jako pierwszy. Drugi element moze zostac(lub nie musi byc) zakryty w czesci lub calosci przez element znajdujacy sie na samej gorze(pierwszy). Na danej wartwie znajduje sie tylko jedna grafika! Oczywiscie kolejnosc grafik/warstw mozemy zmieniac. To znaczy grafika na samej gorze moze zostac grafika na samym dole. Taki system wartstw jest zaimplementowany na przyklad w programie Photoshop.
+Podzbiór wyselekcjonowanych 40 grafik działa w systemie warstw. Można myśleć o tym jak o stosie elementów. Pierwszy element, ktory znajduje sie na samej gorze jest widziany jako pierwszy. Drugi element może zostać(lub nie musi być) zakryty w czesci lub calosci przez element znajdujący się na samej gorze(pierwszy). Taki mechanizm widoczności aplikuje się do wszystkich 40 warstw. Na danej warstwie znajduje się tylko jedna grafika! Oczywiście kolejność grafik/warstw możemy zmieniać. To znaczy grafika na samej górze może zostać grafiką na samym dole. Taki system warstw jest zaimplementowany na przykład w programie Photoshop.
 
 ### Kolory
 
-Oczwiscie, jezeli chcemy odwzorowac oryginalny obraz. Nalezy probkowac i kolorowac wybrane grafiki. Istnieje wiele technik w jaki sposob mozna to uzyskac.
+Istnieje wiele technik w jaki sposób można to uzyskać.
