@@ -6,7 +6,7 @@ How do I get the closest possible image to the original using vector graphics?
 
 ## Description of the problem
 
-I have a collection of 105 vector graphics. The graphics are available in a folder named "vector graphics". For the purpose of presenting the problem, you can assume that it is a collection of symbols or icons.
+I have a collection of 105 vector graphics. The graphics are available in a folder named "vector graphics". To present the problem, you can assume that it is a collection of symbols or icons.
 
 ### What operations can be performed on a single graphic/layer?
 
@@ -29,8 +29,8 @@ Graphics are placed on a 966px by 966px scene. Graphics are visible only in the 
 ### Layer system
 
 One graphic is equivalent to one layer. This means that we have 40 layers. The layer system
-We can think of as a plate with a stack of pancakes stacked on top of each other. 
-Layer #1 is the topmost layer. The graphic on this layer is seen first by the observer. Layer #2 is seen second by the observer. This means that the graphic from layer #1 can cover completely or slightly(or not cover at all) the graphic from layer #2. This mechanism is applied to all 40 layers. This system of layers is known from programs like "Photoshop" and others used for processing vector or raster graphics.
+we can think of as a plate with a stack of pancakes stacked on top of each other. 
+Layer #1 is the topmost layer. The graphic on this layer is seen first by the observer. Layer #2 is seen second by the observer. It means that the graphic from layer #1 can cover completely or slightly(or not cover at all) the graphic from layer #2. This mechanism is applied to all 40 layers. This system of layers is known from programs like "Photoshop", "Gimp" or others used for processing vector or raster graphics.
 
 ### Colors
 
